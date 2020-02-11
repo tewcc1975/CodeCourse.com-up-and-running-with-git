@@ -15,4 +15,8 @@ $app->post('/contact', function($request, $response, $args) {
 //
 });
 
+$app->get('/signup', function($request, $response, $args) {
+	return $response->write('Sign up');
+});
+
 $app->run();
