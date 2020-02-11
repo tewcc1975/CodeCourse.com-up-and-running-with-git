@@ -8,7 +8,7 @@ $app->get('/', function($request, $response, $args) {
 });
 
 $app->get('/contact', function($request, $response, $args) {
-	return $response->write('Contact form');
+	return $response->write('Contact form!');
 });
 
 $app->post('/contact', function($request, $response, $args) {
